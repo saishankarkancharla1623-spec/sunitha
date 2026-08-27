@@ -1,4 +1,4 @@
-<!--<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
@@ -764,48 +764,4 @@
   document.getElementById('year').textContent = new Date().getFullYear();
 </script>
 </body>
-</html>-->
-
-<!DOCTYPE html>
-<html><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Happy Birthday Amma</title>
-<style>
-*{box-sizing:border-box}body{margin:0;height:100vh;overflow:hidden;font-family:Segoe UI;background:
-linear-gradient(135deg,#2b1055,#7597de,#ff4f81,#ffd166);background-size:300% 300%;animation:bg 10s ease infinite;display:flex;align-items:center;justify-content:center}
-@keyframes bg{50%{background-position:100% 100%}}
-.card{width:92%;max-width:420px;padding:28px;border-radius:28px;background:rgba(255,255,255,.14);backdrop-filter:blur(18px);border:1px solid rgba(255,255,255,.3);box-shadow:0 20px 50px rgba(0,0,0,.35);text-align:center;color:#fff}
-h1{margin:0;font-size:2.2rem;background:linear-gradient(90deg,#ffe082,#fff,#ffd54f);-webkit-background-clip:text;color:transparent}
-h2{margin:8px 0 18px;color:#ffe6f0}
-.cake{font-size:90px;filter:drop-shadow(0 0 18px gold);animation:b 2s infinite}
-@keyframes b{50%{transform:translateY(-6px) scale(1.04)}}
-p{line-height:1.7;font-size:17px}
-.name{color:#ffd54f;font-weight:bold}
-.f{position:absolute;bottom:-40px;font-size:24px;animation:up linear forwards}
-@keyframes up{to{transform:translateY(-120vh) rotate(360deg);opacity:0}}
-</style></head>
-<body>
-<div class="card">
-<h1>🎉 Happy Birthday 🎉</h1>
-<h2 class="name">🌸 Amma 🌸</h2>
-<div class="cake">🎂</div>
-<p style="color: black;">
-    Thank you for your endless love, care, and sacrifices. ❤️<br><br>
-
-    Today, we celebrate not only your birthday but also the endless love,
-    care, and strength you have given our family.<br><br>
-
-    Once again, <b>Happy Birthday, Amma!</b> 🎉<br>
-    Stay strong, stay healthy, and always keep smiling. ❤️<br><br>
-
-    <b>Love You Forever, Amma. 💖</b><br><br>
-
-    <b>— Your Loving Son & Daughter ❤️</b>
-</p>
-</div>
-<script>
-let e=["❤️","🌸","✨","🎈","💖"];
-setInterval(()=>{let d=document.createElement("div");d.className="f";d.textContent=e[Math.floor(Math.random()*e.length)];
-d.style.left=Math.random()*100+"vw";d.style.animationDuration=(4+Math.random()*3)+"s";document.body.appendChild(d);setTimeout(()=>d.remove(),7000)},180);
-</script></body></html>
-
-
+</html>
